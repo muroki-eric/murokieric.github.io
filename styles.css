@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pompiere&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+padding: 0;
+}
+
+
+li, a, button {
+    font-family: 'Courgette', cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: #a16bd0;
+    text-decoration: none;
+
+}
+h1{
+    font-family: 'Courgette', cursive;
+    font-weight: 500;
+    font-size: 10pxpx;
+    letter-spacing: 1.0;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:none;
+    margin-top: 0%;
+
+}
+
+
+body {
+    background-color: #fdf8f8;
+    
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding: 1rem;
+  }
+  
+
+.column {
+    float: left;
+    width: 50%;
+
+
+
+    display: flex;
+    flex-wrap: wrap;
+       justify-content: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+ 
+  }
+
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+ 
+   
+  }
+
+.logo {
+     cursor: pointer;
+     margin-right: auto;
+     
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav_links li a:hover {
+    color: #3ef49f;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(104, 226, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  
+}
+
+button:hover {
+    background-color: rgb(184, 169, 255, 1) ;
+}
+ .card-style {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    transition: 0.5s ease;
+    cursor: pointer; 
+  
+    
+    
+}
+.card:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+
+}
+.div-text{
+ 
+    text-justify: auto;
+    width: 100%;
+    height: 50vw;
+    font-family: 'Courgette', cursive;
+
+    color: #288f42;
+    font-size: 120dp;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+     justify-content: center;
+       text-align: center;
+}
+
+
+
+body {
+  color: #272727;
+  
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ 
+
+}
+.div-size{
+
+    /* height: 50vw; */
+    
+       align-items: center;
+       justify-content: center;
+       display: flex;
+       flex-direction: column;
+       overflow: hidden;
+       
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.abt_img,.div-text{
+    border-radius: 0.8em;
+    width: 50vw;
+    height:80vh;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.8em;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_image{
+
+    float: left;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  /* text-transform: capitalize; */
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+footer {
+    background: #3c3b3b;
+    height: auto;
+    width: 100vw;
+    font-family: 'Pompiere', cursive;
+    padding-top: 40px;
+    padding-left: 4px;
+    color: #f7f7f7;
+    position: absolute;
+    
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: flex;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+ }
+
+ .socials a:hover i {
+     color: #3ef49f;;
+ }
+
+ .footer-bottom{
+     background: #000;
+     width: 100vw;
+     padding: 20px 0;
+     text-align: center;
+
+ }
+
+ .footer-bottom span {
+     text-transform: uppercase;
+     opacity: 0.4;
+     font-weight: 200;
+ }
